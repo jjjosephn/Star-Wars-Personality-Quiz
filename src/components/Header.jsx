@@ -13,6 +13,7 @@ export default function Header(){
 
    return(
       <header>
+         <img className="logo" src = "/starwarslogo-transformed.png"/>
          <h1>Which Star Wars Character Are You?</h1>
          <nav>
             <Link to="/" onClick={handleHomeClick}>Home</Link>
